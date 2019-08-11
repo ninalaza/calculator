@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Parallel test suite" parallel="methods" thread-count="2">
+    <test name="Regression 1">
+        <classes>
+            <class name="CosCalculatorTest"/>
+            <class name="DifferenceCalculatorTest"/>
+            <class name="DivisionCalculatorPositiveTest"/>
+            <class name="isNegativeCalculatorTest"/>
+            <class name="isPositiveNumberCalculatorTest"/>
+            <class name="TgCalculatorTest"/>
+            <class name="MultiplyCalculatorTest"/>
+            <class name="PowCalculatorTest"/>
+            <class name="SinCalculatorTest"/>
+            <class name="SummaCalculatorTest"/>
+            <class name="SqrtCalculatorTest"/>
+
+        </classes>
+    </test>
+</suite>
